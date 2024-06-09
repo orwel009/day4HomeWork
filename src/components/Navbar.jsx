@@ -15,21 +15,18 @@ const Navbar = () => {
                     <li className="nav-item">
                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                     </li>
-                    <li className="nav-item">
-                    <Link className="nav-link" to="#">Link</Link>
-                    </li>
                     <li className="nav-item dropdown">
                     <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         View-Items
                     </Link>
                     <ul className="dropdown-menu">
                         <li><Link className="dropdown-item" to="/shopapp">ShopApp</Link></li>
-                        <li><Link className="dropdown-item" to="/airlineapp">AirlineApp</Link></li>
+                        {/* <li><Link className="dropdown-item" to="/airlineapp">AirlineApp</Link></li> */}
                         <li><Link className="dropdown-item" to="/usdataapp">USDataApp</Link></li>
                         <li><Link className="dropdown-item" to="/userapp">UserApp</Link></li>
                         <li><Link className="dropdown-item" to="/userdummyapp">UserDumyApp</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><Link className="dropdown-item" to="">Other Apps</Link></li>
+                        <li><Link className="dropdown-item" to="/airlineapp">Other Apps</Link></li>
                     </ul>
                     </li>
                     <li className="nav-item">
