@@ -7,6 +7,7 @@ import AirlineApp from './components/AirlineApp';
 import USDataApp from './components/USDataApp';
 import UserApp from './components/UserApp';
 import UserDummyApp from './components/UserDummyApp';
+import HospitalApp from './components/HospitalApp';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/usdataapp' element={<USDataApp/>}/>
         <Route path='/userapp' element={<UserApp/>}/>
         <Route path='/userdummyapp' element={<UserDummyApp/>}/>
+        <Route path='/hospitalapp' element={<HospitalApp/>}/>
       </Routes>
     </BrowserRouter>
   );
