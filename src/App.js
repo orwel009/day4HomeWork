@@ -6,6 +6,7 @@ import ShopApp from './components/ShopApp';
 import AirlineApp from './components/AirlineApp';
 import USDataApp from './components/USDataApp';
 import UserApp from './components/UserApp';
+import UserDummyApp from './components/UserDummyApp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/airlineapp' element={<AirlineApp/>}/>
         <Route path='/usdataapp' element={<USDataApp/>}/>
         <Route path='/userapp' element={<UserApp/>}/>
+        <Route path='/userdummyapp' element={<UserDummyApp/>}/>
       </Routes>
     </BrowserRouter>
   );

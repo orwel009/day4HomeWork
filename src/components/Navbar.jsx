@@ -27,6 +27,7 @@ const Navbar = () => {
                         <li><Link className="dropdown-item" to="/airlineapp">AirlineApp</Link></li>
                         <li><Link className="dropdown-item" to="/usdataapp">USDataApp</Link></li>
                         <li><Link className="dropdown-item" to="/userapp">UserApp</Link></li>
+                        <li><Link className="dropdown-item" to="/userdummyapp">UserDumyApp</Link></li>
                         <li><hr className="dropdown-divider"/></li>
                         <li><Link className="dropdown-item" to="">Other Apps</Link></li>
                     </ul>
